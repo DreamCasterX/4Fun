@@ -4,7 +4,7 @@ pool:
     - agent.name -equals LinuxTDC
 
 steps:
-    - script: bash calendar.sh
+    - script: bash greeting.sh
       displayName: '打招呼'
     - script: python3 month.py
       displayName: '顯示月曆'
