@@ -1,5 +1,5 @@
 pool:
-    name: Automation_Playgrond
+    name: Automation_Playground
     demands:
     - agent.name -equals LinuxTDC
 
