@@ -1,0 +1,11 @@
+pool:
+    name: Automation_Playgrond
+    demands:
+    - agent.name -equals LinuxTDC
+
+steps:
+    - script: bash calendar.sh
+      displayName: '打招呼'
+    - script: python3 month.py
+      displayName: '顯示月曆'
+       
